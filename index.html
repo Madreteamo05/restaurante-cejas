@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante el Cejas</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Cabecera del sitio -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nav-rumbo">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="img/Restaurant.png" alt=""></a>
+              <button
+              class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse justify-content-end navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#planes">Comida</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#destinos">Pagos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contactos">Datos</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div id="hero">
+             <img src="img/Cubiertos.png" alt="">
+            <h2>Restaurante el Cejas</h2>
+            <h1>Disfruta de la mejor comida de la city</h1>
+                    
+        </div>
+    </header>
+
+    <!-- Secciones principales -->
+    <main>
+        <section id="planes">
+            <div class="container">
+                <h2>Comida</h2>
+                <p>Si piensas que tu vida está en manos de los dioses, estás equivocado, está en las manos de los cocineros, por eso en el Restaurante el cejas de ofrecemos <strong>la mejor comida</strong></p>
+                    <div class="row">
+                        <div class="col-md-4 plan">
+                            <img src="img/Onichan.jfif" alt="">
+                            <h3>Comida rapida</h3>
+                            <p>Una jugosa hamburguesa de carne de res con lechuga, tomate, cebolla y salsa especial.
+                              Precio: $5.000<br>
+                              perro caliente con salchicha a la parrilla en un pan suave con tus toppings favoritos: kétchup, mostaza, cebolla, jalapeños, etc.Precio: $3.500
+                              <br>
+                              Deliciosas alitas de pollo bañadas en salsa BBQ casera.Precio: $6.000<br>
+                            </p>
+                        </div>
+                        <div class="col-md-4 plan">
+                            <img src="img/Jugos.png" alt="">
+                            <h3>Jugos</h3>
+                            <p>Jugo de Naranja, Fresa, Mango o Mora.
+                              Precio: $2.000 cada uno<br>
+                            </p>
+                        </div>
+                        <div class="col-md-4 plan">
+                            <img src="img/images.jfif" alt="">
+                            <h3>Postres</h3>
+                            <p>Cheesecake de Fresa: $4.00<br>
+                              Brownie de Chocolate: $3.50<br>
+                              Tarta de Manzana: $4.50<br>
+                            </p>
+                        </div>
+                    </div>
+            </div>
+        
+        </section>
+        <section id="destinos">
+        <div class="container">
+          <h2>Pagos</h2>
+          
+          <div class="row">
+          <div class="col-md-4 destino"><img src="img/Cash.png" alt=""><h3>Efectivo</h3></div>
+          <div class="col-md-4 destino"><img src="img/Credit.png" alt=""><h3>Tarjeta</h3></div>
+          <div class="col-md-4 destino"><img src="img/necli.png" alt=""><h3>Nequi</h3></div>
+          </div>
+            
+          </div>
+        </div>
+      </section>
+        <section id="contactos">
+          <div class="container">
+           <h2>Datos</h2>
+           <p>Registra tus datos para el servicio
+           </p>
+           <form action="">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" placeholder="Nombres de quien resive:">
+              </div>
+              <div class="col-md-6">
+              <input type="text" placeholder="Telefono de contacto:">
+            </div>
+            <div class="col-md-6">
+              <input type="text" placeholder="Direccion:">
+            </div>
+            <div class="col-md-6">
+              <select name="" id="">
+                <option>Localidad</option>
+                <option value="Bosa">Bosa</option>
+                <option value="Kennedy">Kennedy</option>
+                <option value="Fontibon">Fontibon</option>
+                <option value="Usme">Usme</option>
+              </select>
+            </div>
+            </div>
+            <button>Enviar</button>
+           </form>
+          </div>
+        </section>
+      
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+      <p>No es solo comida, es amor en cada bocado.<br>
+        Cabecera con llamadas a la atencion para ver el menú y reservar.<br>
+      +57 3106820292<br>
+      Piri Rodriguez
+    </p>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
